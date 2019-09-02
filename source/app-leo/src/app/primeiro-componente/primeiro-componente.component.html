@@ -1,0 +1,14 @@
+<div>
+    <h3>Este é o meu primeiro componente</h3>
+    <p>Que legal!</p>
+</div>
+
+<br>
+
+<div>
+    <h4>{{ meutitulo }}</h4>
+</div>
+
+<div *ngFor="let cli of clientes">
+    <p *ngIf="cli.ativo">{{ cli.id }} -> {{ cli.nome }}</p>
+</div>
